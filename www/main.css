@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Open+Sans);
+body {
+  font-family: 'Open+Sans', Arial, sans-serif;
+  font-size: 16px;
+  color: #333; }
+
+h1, h2, h3, h4 {
+  font-family: 'Lato', Arial, sans-serif;
+  text-align: center; }
+
+h1 {
+  font-size: 2.25em; }
+
+h2 {
+  font-size: 1.875em; }
+
+a {
+  color: #0070CA;
+  text-decoration: underline; }
+
+div.layer {
+  padding: 40px 0; }
+
+div.top {
+  background: url("mqt.jpg") no-repeat top center;
+  padding: 0 0 40px 0; }
+  div.top h1 {
+    text-align: left;
+    color: #fff; }
+  div.top h2 {
+    text-align: left;
+    margin: 0 0 30px 20px;
+    color: #FDAF08;
+    font-size: 1.5em; }
+  div.top div.lakeview img {
+    width: 100%;
+    border: 1px solid #fff; }
+  div.top div.aside {
+    color: #fff;
+    text-align: center; }
+    div.top div.aside p {
+      margin-bottom: 30px; }
+    div.top div.aside a.register {
+      display: inline-block;
+      background: #FDAF08;
+      padding: 10px 50px;
+      border: 1px solid #999;
+      border-radius: 8px;
+      font-size: 1.125em;
+      color: #333;
+      text-decoration: none; }
+    div.top div.aside a.register:hover {
+      text-decoration: underline;
+      color: #fff;
+      background: #fbbe57; }
+
+nav {
+  font-size: 1.125em; }
+  nav ul {
+    list-style: none; }
+  nav li {
+    display: inline; }
+    nav li a {
+      padding: 5px 15px;
+      color: #fff;
+      text-decoration: none;
+      display: inline-block; }
+    nav li a:hover {
+      color: #FDAF08; }
+
+div.layer2 {
+  background: #fff;
+  color: #333;
+  text-align: center; }
+  div.layer2 a {
+    color: #0070CA;
+    text-decoration: underline; }
+  div.layer2 img {
+    border: 1px solid #0070CA;
+    padding: 0;
+    margin: 0; }
+
+div.results, div.sponsor {
+  background: #0070CA;
+  color: #fff;
+  text-align: center; }
+  div.results a, div.sponsor a {
+    color: #fff;
+    text-decoration: underline; }
+
+div.volunteer {
+  background: #f1f1f1;
+  color: #333;
+  text-align: center; }
+  div.volunteer a {
+    color: #0070CA;
+    text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */
