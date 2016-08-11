@@ -1,4 +1,5 @@
 
+$fourteenpx: 0.875em;
 $eighteenpx: 1.125em;
 $twentyfourpx: 1.5em;
 $thirtypx: 1.875em;
@@ -32,7 +33,7 @@ div.top {
 	h2 { text-align: left; margin: 0 0 30px 20px; color: $orange; font-size: $twentyfourpx; }
 
 	div.lakeview {
-		img { width: 100%; border: 1px solid #fff; }
+		img { width: 100%; border: 1px solid #fff; display: inline-block; margin-bottom: 10px; }
 	}	
 
 	div.aside {
@@ -63,11 +64,20 @@ div.top {
 
 nav {
 	font-size: $eighteenpx;
-	ul { list-style: none; }
+	ul { list-style: none; margin: 0; padding: 0; }
 	li { 
 		display: inline; 
 		a { padding: 5px 15px; color: #fff; text-decoration: none; display: inline-block; }
 		a:hover { color: $orange; }
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+	nav {		
+		li { 
+			a { padding: 5px 5px; font-size: $fourteenpx; }
+		}
 	}
 
 }
@@ -78,7 +88,7 @@ div.layer2 {
 		color: $blue; text-decoration: underline;
 	}
 
-	img { border: 1px solid $blue; padding: 0; margin: 0; }
+	img { border: 1px solid $blue; padding: 0; margin: 0; max-width: 100%; }
 
 }
 

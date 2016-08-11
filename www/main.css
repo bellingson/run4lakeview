@@ -34,7 +34,9 @@ div.top {
     font-size: 1.5em; }
   div.top div.lakeview img {
     width: 100%;
-    border: 1px solid #fff; }
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-bottom: 10px; }
   div.top div.aside {
     color: #fff;
     text-align: center; }
@@ -57,7 +59,9 @@ div.top {
 nav {
   font-size: 1.125em; }
   nav ul {
-    list-style: none; }
+    list-style: none;
+    margin: 0;
+    padding: 0; }
   nav li {
     display: inline; }
     nav li a {
@@ -68,6 +72,10 @@ nav {
     nav li a:hover {
       color: #FDAF08; }
 
+@media only screen and (max-width: 400px) {
+  nav li a {
+    padding: 5px 5px;
+    font-size: 0.875em; } }
 div.layer2 {
   background: #fff;
   color: #333;
@@ -78,7 +86,8 @@ div.layer2 {
   div.layer2 img {
     border: 1px solid #0070CA;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    max-width: 100%; }
 
 div.results, div.sponsor {
   background: #0070CA;
