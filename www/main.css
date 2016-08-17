@@ -19,7 +19,8 @@ a {
   text-decoration: underline; }
 
 div.layer {
-  padding: 40px 0; }
+  padding: 40px 0;
+  border-bottom: 1px solid #999; }
 
 div.top {
   background: url("mqt.jpg") no-repeat top center;
@@ -57,6 +58,7 @@ div.top {
       background: #fbbe57; }
 
 nav {
+  float: right;
   font-size: 1.125em; }
   nav ul {
     list-style: none;
@@ -73,9 +75,25 @@ nav {
       color: #FDAF08; }
 
 @media only screen and (max-width: 400px) {
-  nav li a {
-    padding: 5px 5px;
-    font-size: 0.875em; } }
+  div.top div.container {
+    padding: 0; }
+    div.top div.container nav {
+      float: none;
+      display: block;
+      margin: 0 auto; }
+      div.top div.container nav li a {
+        padding: 5px 4px;
+        font-size: 0.75em;
+        border-right: 1px solid #FFF; }
+      div.top div.container nav li:last-child a {
+        border-right: 0; }
+    div.top div.container h1 {
+      font-size: 1.5em; }
+    div.top div.container h2 {
+      font-size: 1.125em; } }
+div.photo {
+  background: #f1f1f1; }
+
 div.layer2 {
   background: #fff;
   color: #333;
