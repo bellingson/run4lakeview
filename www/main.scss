@@ -52,11 +52,17 @@ div.top {
 			font-size: $eighteenpx;
 			color: #333;
 			text-decoration: none;			
+			margin-bottom: 20px;
 		}
 		a.register:hover { 
 			text-decoration: underline;
 			color: #fff;
 			background: #fbbe57;
+		}
+
+
+		div.fees {
+			p { margin: 0 0 5px 0; }
 		}
 
 	}
@@ -102,8 +108,21 @@ nav {
 
 }
 
+div.info {
+
+	text-align: left; 
+	ul { list-style: none; margin: 0 0 20px 0; padding: 0; }
+	h3 { text-align: left; }
+
+
+}
+
 div.photo {
 	background: #f1f1f1;
+
+	div.carousel {
+		max-width: 1024px; margin: 0 auto;
+	}
 
 }
 
@@ -120,7 +139,7 @@ div.layer2 {
 div.results, div.sponsor {
 	background: $blue; color: #fff; text-align: center; 
 	a {
-		color: #fff; text-decoration: underline;
+		color: $orange; text-decoration: underline;
 	}
 }
 
@@ -129,5 +148,27 @@ div.volunteer {
 	a {
 		color: $blue; text-decoration: underline;
 	}
+}
+
+body.become-sponsor {
+
+	background: $blue;
+
+	div.top {
+		color: #fff;
+		padding-bottom: 5px;
+	}	
+
+	div.letter {
+		background: #fff;
+
+		h1 { margin-bottom: 30px; }
+	
+		div.content { max-width: 700px; margin: 0 auto; line-height: 26px; }
+
+	}
+
+
+
 }
 

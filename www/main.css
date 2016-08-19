@@ -51,11 +51,14 @@ div.top {
       border-radius: 8px;
       font-size: 1.125em;
       color: #333;
-      text-decoration: none; }
+      text-decoration: none;
+      margin-bottom: 20px; }
     div.top div.aside a.register:hover {
       text-decoration: underline;
       color: #fff;
       background: #fbbe57; }
+    div.top div.aside div.fees p {
+      margin: 0 0 5px 0; }
 
 nav {
   float: right;
@@ -91,8 +94,20 @@ nav {
       font-size: 1.5em; }
     div.top div.container h2 {
       font-size: 1.125em; } }
+div.info {
+  text-align: left; }
+  div.info ul {
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0; }
+  div.info h3 {
+    text-align: left; }
+
 div.photo {
   background: #f1f1f1; }
+  div.photo div.carousel {
+    max-width: 1024px;
+    margin: 0 auto; }
 
 div.layer2 {
   background: #fff;
@@ -112,7 +127,7 @@ div.results, div.sponsor {
   color: #fff;
   text-align: center; }
   div.results a, div.sponsor a {
-    color: #fff;
+    color: #FDAF08;
     text-decoration: underline; }
 
 div.volunteer {
@@ -122,5 +137,19 @@ div.volunteer {
   div.volunteer a {
     color: #0070CA;
     text-decoration: underline; }
+
+body.become-sponsor {
+  background: #0070CA; }
+  body.become-sponsor div.top {
+    color: #fff;
+    padding-bottom: 5px; }
+  body.become-sponsor div.letter {
+    background: #fff; }
+    body.become-sponsor div.letter h1 {
+      margin-bottom: 30px; }
+    body.become-sponsor div.letter div.content {
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 26px; }
 
 /*# sourceMappingURL=main.css.map */
