@@ -131,8 +131,10 @@ div.results, div.sponsor {
     text-decoration: underline; }
   div.results p, div.sponsor p {
     margin-bottom: 30px; }
-  div.results div.row div img, div.sponsor div.row div img {
-    max-width: 100%; }
+  div.results div.row, div.sponsor div.row {
+    margin-bottom: 30px; }
+    div.results div.row div img, div.sponsor div.row div img {
+      max-width: 100%; }
 
 div.volunteer {
   background: #f1f1f1;
