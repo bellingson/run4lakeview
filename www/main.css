@@ -57,8 +57,10 @@ div.top {
       text-decoration: underline;
       color: #fff;
       background: #fbbe57; }
-    div.top div.aside div.fees p {
-      margin: 0 0 5px 0; }
+    div.top div.aside div.fees {
+      margin-bottom: 10px; }
+      div.top div.aside div.fees p {
+        margin: 0 0 5px 0; }
 
 nav {
   float: right;
