@@ -24,21 +24,27 @@ div.layer {
 
 div.top {
   background: url("mqt.jpg") no-repeat top center;
-  padding: 0 0 40px 0; }
+  padding: 0 0 40px 0;
+  border-bottom: 1px solid #999; }
   div.top h1 {
     text-align: left;
-    color: #fff; }
+    color: #fff;
+    display: none; }
   div.top h2 {
     text-align: left;
     margin: 0 0 30px 20px;
     color: #FDAF08;
-    font-size: 1.5em; }
-  div.top div.lakeview img {
-    width: 100%;
-    border: 1px solid #fff;
-    display: inline-block;
-    margin-bottom: 10px; }
+    font-size: 2.25em; }
+  div.top div.lakeview {
+    padding-top: 60px; }
+    div.top div.lakeview img {
+      width: 100%;
+      display: inline-block;
+      margin-bottom: 10px; }
+    div.top div.lakeview img.win {
+      border: 1px solid #fff; }
   div.top div.aside {
+    padding-top: 60px;
     color: #fff;
     text-align: center; }
     div.top div.aside p {
@@ -96,6 +102,11 @@ nav {
       font-size: 1.5em; }
     div.top div.container h2 {
       font-size: 1.125em; } }
+div.win {
+  text-align: center; }
+  div.win img {
+    max-width: 100%; }
+
 div.info {
   text-align: left; }
   div.info ul {

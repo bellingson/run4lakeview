@@ -18,7 +18,7 @@ body {
 
 h1, h2, h3, h4 { font-family: 'Lato', Arial, sans-serif; text-align: center; }
 
-h1 { font-size: $thirtysixpx;  }
+h1 { font-size: $thirtysixpx;   }
 h2 { font-size: $thirtypx;  }
 
 a {
@@ -30,14 +30,18 @@ div.layer { padding: 40px 0; border-bottom: 1px solid #999; }
 div.top { 
 	background: url('mqt.jpg') no-repeat top center;
 	padding: 0 0 40px 0;  
-	h1 { text-align: left; color: #fff; }
-	h2 { text-align: left; margin: 0 0 30px 20px; color: $orange; font-size: $twentyfourpx; }
+	border-bottom: 1px solid #999;
+	h1 { text-align: left; color: #fff; display: none; }
+	h2 { text-align: left; margin: 0 0 30px 20px; color: $orange; font-size: $thirtysixpx; }
 
 	div.lakeview {
-		img { width: 100%; border: 1px solid #fff; display: inline-block; margin-bottom: 10px; }
+		padding-top: 60px;
+		img { width: 100%; display: inline-block; margin-bottom: 10px; }
+		img.win { border: 1px solid #fff;  }
 	}	
 
 	div.aside {
+		padding-top: 60px;
 		color: #fff;
 		text-align: center;
 
@@ -107,6 +111,11 @@ nav {
 
 	
 
+}
+
+div.win {
+	text-align: center;
+	img { max-width: 100%; }
 }
 
 div.info {
