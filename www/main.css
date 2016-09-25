@@ -102,6 +102,12 @@ nav {
       font-size: 1.5em; }
     div.top div.container h2 {
       font-size: 1.125em; } }
+div.course {
+  text-align: center; }
+  div.course img {
+    display: inline-block;
+    margin-bottom: 10px; }
+
 div.win {
   text-align: center; }
   div.win img {
