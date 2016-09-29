@@ -23,7 +23,7 @@ div.layer {
   border-bottom: 1px solid #999; }
 
 div.top {
-  background: url("mqt.jpg") no-repeat top center;
+  background: #16599D url("mqt.jpg") no-repeat top center;
   padding: 0 0 40px 0;
   border-bottom: 1px solid #999; }
   div.top h1 {
@@ -67,6 +67,10 @@ div.top {
       margin-bottom: 10px; }
       div.top div.aside div.fees p {
         margin: 0 0 5px 0; }
+    div.top div.aside div.paper-registration h3 {
+      font-size: 1.125em; }
+    div.top div.aside div.paper-registration a {
+      color: #ff0000; }
 
 nav {
   float: right;
@@ -119,8 +123,10 @@ div.info {
     list-style: none;
     margin: 0 0 20px 0;
     padding: 0; }
-  div.info h3 {
+  div.info h3, div.info h4 {
     text-align: left; }
+  div.info h4 {
+    font-size: 0.875em; }
 
 div.photo {
   background: #f1f1f1; }
