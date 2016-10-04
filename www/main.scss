@@ -33,6 +33,7 @@ div.top {
 	border-bottom: 1px solid #999;
 	h1 { text-align: left; color: #fff; display: none; }
 	h2 { text-align: left; margin: 0 0 30px 20px; color: $orange; font-size: $thirtysixpx; }
+	h2.dates { text-decoration: line-through; }
 
 	div.lakeview {
 		padding-top: 60px;
@@ -46,6 +47,8 @@ div.top {
 		text-align: center;
 
 		p { margin-bottom: 30px; }
+
+		p a { color: $orange; }
 
 		a.register {
 			display: inline-block;
